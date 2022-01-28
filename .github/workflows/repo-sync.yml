@@ -10,7 +10,7 @@ jobs:
         with:
           source_repo: "pastaway2/GTMcourse"
           source_branch: "main"
-          destination_repo: "felixjg1-admin@bitbucket.org/felixjg1/helloworld.git"
+          destination_repo: "https://felixjg1-admin@bitbucket.org/felixjg1/helloworld.git"
           destination_branch: "main"
           #ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} # optional
           #source_ssh_private_key: ${{ secrets.SOURCE_SSH_PRIVATE_KEY }} # optional, will override `SSH_PRIVATE_KEY`
